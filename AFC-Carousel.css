@@ -1,0 +1,21 @@
+/*-----------------------------------------------
+
+Name    : AFC-Carousel Css
+Version : 1.0
+By      : Aan Fauzi
+https://github.com/aanfauzicoding/Afc-Carousel/blob/main/LICENSE
+
+----------------------------------------------- */
+.Afc-Carousel-Slides{display:none}
+.Afc-Carousel-Slides img {vertical-align:middle;width:100%}
+.wrap-dot{text-align:center;margin-top:10px}
+.Afc-CarouselSlideshow-container{max-width:1000px;position:relative;margin:auto}
+.Afc-CarouselSlideshow-container .prev,.Afc-CarouselSlideshow-container .next{cursor:pointer;position:absolute;top:50%;padding:7px 15px;margin:-22px 5px 0 5px;color:white;font-weight:bold;font-size:18px;transition:0.6s ease;border-radius:50%;user-select:none}
+.Afc-CarouselSlideshow-container .next{right:0}
+.Afc-CarouselSlideshow-container .prev:hover,.Afc-CarouselSlideshow-container .next:hover{background-color:rgba(0,0,0,0.8)}
+.Afc-CarouselSlideshow-container .text{color:#f2f2f2;font-size:15px;padding:8px 12px;position:absolute;bottom:8px;width:100%;text-align:center}
+.wrap-dot .dot{cursor:pointer;height:15px;width:15px;margin:0 2px;background-color:#bbb;border-radius:50%;display:inline-block;transition:background-color 0.6s ease}
+.wrap-dot .dot.active{background-color:#eee;width:30px;border-radius:20px}
+.fade{-webkit-animation-name:fade;-webkit-animation-duration:1.5s;animation-name:fade;animation-duration:1.5s}
+@-webkit-keyframes fade{from{opacity:.4}to{opacity:1}}@keyframes fade{from{opacity:.4}to{opacity:1}}
+@media only screen and (max-width:300px){.Afc-CarouselSlideshow-container .prev,.slideshow-container .next,.slideshow-container .text{font-size:11px}}

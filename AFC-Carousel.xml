@@ -1,0 +1,72 @@
+/*-----------------------------------------------
+
+Name    : AFC-Carousel Html
+Version : 1.0
+By      : Aan Fauzi
+https://github.com/aanfauzicoding/Afc-Carousel/blob/main/LICENSE
+
+----------------------------------------------- */
+<b:if cond='data:view.isHomepage'>
+<div class='Afc-CarouselSlideshow-container'>
+<div class='Afc-Carousel-Slides fade'>
+<b:section class='lgx-logo-item1' id='Img_Slider1' maxwidgets='1' name='Slider Gambar 1' showaddelement='no'>
+<b:widget id='HTML111' locked='true' title='Img_Slider1' type='HTML' version='2' visible='true'>
+<b:widget-settings>
+<b:widget-setting name='content'><![CDATA[  <a href='#'>
+  <img src='https://link.jpg'/>
+  <div class='text'>Caption Three</div>
+  </a>]]></b:widget-setting>
+</b:widget-settings>
+<b:includable id='main'>
+<div class='widget-content'>
+<data:content/>
+</div>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+<div class='Afc-Carousel-Slides fade'>
+<b:section class='lgx-logo-item2' id='Img_Slider2' maxwidgets='1' name='Slider Gambar 2' showaddelement='no'>
+<b:widget id='HTML112' locked='true' title='Img_Slider2' type='HTML' version='2' visible='true'>
+<b:widget-settings>
+<b:widget-setting name='content'><![CDATA[  <a href='#'>
+  <img src='https://link.jpg'/>
+  <div class='text'>Caption Three</div>
+  </a>]]></b:widget-setting>
+</b:widget-settings>
+<b:includable id='main'>
+<div class='widget-content'>
+<data:content/>
+</div>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+<!-- Img_Slider3 -->
+<div class='Afc-Carousel-Slides fade'>
+<b:section class='lgx-logo-item3' id='Img_Slider3' maxwidgets='1' name='Slider Gambar 3' showaddelement='no'>
+<b:widget id='HTML113' locked='true' title='Img_Slider3' type='HTML' version='2' visible='true'>
+<b:widget-settings>
+<b:widget-setting name='content'><![CDATA[  <a href='#'>
+  <img src='https://link.jpg'/>
+  <div class='text'>Caption Three</div>
+  </a>]]></b:widget-setting>
+</b:widget-settings>
+<b:includable id='main'>
+<div class='widget-content'>
+<data:content/>
+</div>
+</b:includable>
+  </b:widget>
+</b:section>
+</div>
+<a class='prev' onclick='prevSlide()'>&#10094;</a>
+<a class='next' onclick='showSlides()'>&#10095;</a>
+</div>
+
+<div class='wrap-dot'>
+  <span class='dot'></span>
+  <span class='dot'></span>
+  <span class='dot'></span>
+</div>
+</b:if>
